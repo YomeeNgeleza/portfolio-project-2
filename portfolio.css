@@ -93,6 +93,10 @@ body {
     line-height: 2;
   }
 
+  nav a {
+    font-size: 14px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -131,4 +135,38 @@ body {
 
 .content p {
   font-size: 14px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav li.active a {
+  color: var(--branding-color);
 }
